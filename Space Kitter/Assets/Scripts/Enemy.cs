@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
 
-    public EnemyType MyType;
+    /*public EnemyType MyType;
     public float mySpeed = 2f;
     public int myHealth = 100;
     Transform moveToPos;
@@ -103,9 +103,9 @@ public class Enemy : MonoBehaviour
         StopAllCoroutines();
         _GM.AddScore(100);
         _EM.KillEnemy(this.gameObject);
-    }
+    }*/
 
-    /*public NavMeshAgent agent;
+    public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
 
@@ -178,6 +178,6 @@ public class Enemy : MonoBehaviour
 
         transform.LookAt(player);
 
-    }*/
+    }
 
 }

@@ -1,0 +1,510 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669561799181937, "dur": 3071398, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561799182664, "dur": 5158, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561799187825, "dur": 78963, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561799266790, "dur": 832630, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561800099422, "dur": 2148560, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561802247983, "dur": 5350, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561802255059, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669561799848564, "dur": 224337, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561799849881, "dur": 58119, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561800046622, "dur": 8048, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561800054678, "dur": 18196, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561800055701, "dur": 14893, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561800079989, "dur": 1830, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669561800078701, "dur": 3188, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561802255339, "dur": 631, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669561800176827, "dur":3773, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561800180612, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669561800180674, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669561800180693, "dur":623, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669561800181370, "dur":887, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561800182257, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802209559, "dur":334, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802209894, "dur":93, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802209987, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802209993, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210012, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210015, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210030, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210033, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210047, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210049, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210061, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210064, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210075, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210078, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210091, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210093, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210105, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210123, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802210153, "dur":5396, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669561800181623, "dur":647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800182274, "dur":8594, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800190886, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669561800190894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800194892, "dur":2812, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669561800197710, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669561800197839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800199241, "dur":8407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669561800207653, "dur":13339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669561800220997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800221009, "dur":6266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669561800227363, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669561800227583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800227597, "dur":8032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669561800235746, "dur":7796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669561800243549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800243561, "dur":11639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669561800255304, "dur":51107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800306419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800307075, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800311366, "dur":47832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800359205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800359219, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800365128, "dur":35416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800400551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800400564, "dur":13608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800414276, "dur":71924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800486210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800486227, "dur":8914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800495223, "dur":71948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800567179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800567192, "dur":4895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800572192, "dur":42976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800615176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800615190, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800619060, "dur":55930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800675047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800675061, "dur":20879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800696025, "dur":37132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800733165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800733179, "dur":13400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800746713, "dur":29962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800776683, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800776701, "dur":20133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800796921, "dur":181374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561800978303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561800978317, "dur":27428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801005816, "dur":1755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801007580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561801007597, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801010489, "dur":84231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801094728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561801094742, "dur":18578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801113424, "dur":178425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801291858, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561801291876, "dur":11291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801303269, "dur":468414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801771692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669561801771708, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669561801775716, "dur":433843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800181700, "dur":580, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800182280, "dur":8598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800190887, "dur":64416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1669561800255309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800258923, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1669561800264459, "dur":64590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800329057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800329070, "dur":19085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800348226, "dur":34243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800382476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800382536, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800386392, "dur":30505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800416904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800417086, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800427331, "dur":223008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800650348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800650363, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800657260, "dur":24379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800681648, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800681664, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800686250, "dur":46930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800733186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800733196, "dur":5210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800738496, "dur":28781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800767285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800767299, "dur":15215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800782594, "dur":36901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800819503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800819519, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800823013, "dur":31697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800854717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800854730, "dur":21005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800875893, "dur":47441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800923345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561800923359, "dur":10059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561800933507, "dur":313702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801247217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561801247233, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801253446, "dur":148707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801402219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561801402234, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801405639, "dur":248780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801654429, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561801654448, "dur":51673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561801706200, "dur":354047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561802060256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669561802060272, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669561802064482, "dur":145103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800181756, "dur":534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800182290, "dur":8590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800190886, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669561800191396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800224096, "dur":4071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669561800228268, "dur":4080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800232356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800233384, "dur":7477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800240966, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669561800241232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800242133, "dur":13913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669561800256149, "dur":59120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800315278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800315294, "dur":10263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800325645, "dur":29565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800355218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800355232, "dur":5871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800361208, "dur":26772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800387987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800388001, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800391162, "dur":30822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800421992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800422008, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800426104, "dur":208373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800634486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800634502, "dur":7878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800642460, "dur":37980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800680449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800680465, "dur":20748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800701286, "dur":38149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800739444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800739549, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800743697, "dur":30549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800774253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800774299, "dur":22543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800796926, "dur":36468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800833402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800833415, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800838650, "dur":58309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800896967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561800897036, "dur":16501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561800913621, "dur":140917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801054547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801054561, "dur":7943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801062576, "dur":3690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801066275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801066288, "dur":17961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801084322, "dur":189226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801273555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801273569, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801277850, "dur":67585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801345446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801345463, "dur":17396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801362953, "dur":342438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801705399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801705597, "dur":6061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801711749, "dur":2278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801714036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801714054, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669561801717936, "dur":1751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669561801719699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801722654, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669561801726182, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669561801726270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801726288, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669561801729335, "dur":11654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669561801740997, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669561801741011, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669561801747930, "dur":461653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800181814, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800182294, "dur":8597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800190892, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669561800191372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800226268, "dur":9603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669561800235969, "dur":146802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669561800382776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800382782, "dur":28895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669561800411756, "dur":43779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800455542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800455558, "dur":7707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800463363, "dur":44215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800507586, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800507646, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800511327, "dur":56772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800568106, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800568119, "dur":37116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800605314, "dur":25355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800630677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800630694, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800634698, "dur":40381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800675084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800675095, "dur":25357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800700536, "dur":54024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800754569, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800754585, "dur":15285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800769966, "dur":59537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800829511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800829526, "dur":20602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800850213, "dur":29883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800880104, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800880118, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800884092, "dur":78524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800962624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800962638, "dur":10558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800973323, "dur":1706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800975036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561800975049, "dur":6697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561800981817, "dur":78995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801060821, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561801060842, "dur":11515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801072426, "dur":40593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801113024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561801113034, "dur":7952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801121056, "dur":218128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801339193, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561801339209, "dur":5646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801344965, "dur":107849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801452822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561801452836, "dur":133211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801586135, "dur":195401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801781545, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669561801781561, "dur":5190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669561801786832, "dur":422731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800181877, "dur":427, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800182304, "dur":8579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800190888, "dur":18796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669561800209694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800209745, "dur":15969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669561800225815, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669561800226130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800226148, "dur":8422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669561800234683, "dur":214653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800449345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800449357, "dur":59185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800508708, "dur":188982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800697698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800697711, "dur":5799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800703611, "dur":62475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800766096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800766111, "dur":8191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800774392, "dur":51246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800825646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800825659, "dur":11372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800837124, "dur":68826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800905957, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561800905972, "dur":9022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561800915079, "dur":132028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801047114, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801047176, "dur":6832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801054098, "dur":36344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801090450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801090465, "dur":8436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801098987, "dur":380323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801479317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801479331, "dur":149409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801628816, "dur":89059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801717880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801717892, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669561801722762, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1669561801722874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801723046, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1669561801726624, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1669561801726989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801727002, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1669561801730584, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669561801730717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801730730, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669561801734287, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1669561801734376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801734386, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1669561801737917, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669561801738067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801738078, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669561801741268, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1669561801741343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801741353, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1669561801745496, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1669561801745826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669561801745844, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1669561801749441, "dur":460115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800181938, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800182312, "dur":8573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800190886, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800191213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800199196, "dur":8690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800207966, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800208190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800208852, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800213070, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1669561800213419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800213593, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1669561800220410, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800220882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800221017, "dur":4221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669561800225330, "dur":13913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669561800239251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800239269, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669561800246305, "dur":102623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800348937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800348951, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800352864, "dur":32283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800385156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800385171, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800389474, "dur":131022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800520506, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800520523, "dur":10149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800530745, "dur":40732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800571486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800571545, "dur":33816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800605447, "dur":35839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800641294, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800641311, "dur":6921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800648380, "dur":85945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800734333, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800734348, "dur":6950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800741390, "dur":27922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800769320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800769335, "dur":17452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800786863, "dur":26938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800813809, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800813833, "dur":8459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800822373, "dur":26151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800848532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800848546, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800852972, "dur":57208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800910187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561800910201, "dur":20757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561800931034, "dur":115210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801046251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801046265, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801051108, "dur":2785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801053902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801054223, "dur":4637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801058940, "dur":34755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801093703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801093717, "dur":6194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801100003, "dur":91198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801191209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801191222, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801194555, "dur":115922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801310486, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801310504, "dur":10505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801321108, "dur":542863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801863981, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669561801864000, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669561801870710, "dur":338843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800182013, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800182317, "dur":8570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800190887, "dur":18184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669561800209078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800209124, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669561800213999, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669561800214240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800215886, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669561800220336, "dur":22547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1669561800242918, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800242936, "dur":5807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1669561800248855, "dur":41704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800290567, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800293309, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800299490, "dur":32022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800331568, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800331583, "dur":7390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800339049, "dur":188018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800527075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800527087, "dur":16623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800543797, "dur":94118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800637923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800638098, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800642561, "dur":57454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800700022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800700365, "dur":17213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800717662, "dur":139409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800857080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800857097, "dur":9124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800866290, "dur":54565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800920863, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561800920877, "dur":9075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561800930027, "dur":99243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801029278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801029292, "dur":12181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801041552, "dur":2614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801044174, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801044189, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801047790, "dur":79416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801127212, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801127230, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801130586, "dur":98742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801229335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801229349, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801232577, "dur":76399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801308984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801308998, "dur":8453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801317544, "dur":426527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801744080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669561801744095, "dur":6950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669561801751130, "dur":458425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800182095, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800182331, "dur":8558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800190891, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669561800191368, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800199901, "dur":8858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669561800208850, "dur":13593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669561800222452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800222468, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669561800227608, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1669561800227795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800227805, "dur":6416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1669561800234332, "dur":47275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800281614, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800281825, "dur":15260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800297162, "dur":84914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800382085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800382099, "dur":6129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800388311, "dur":92967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800481285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800481302, "dur":8963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800490337, "dur":49515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800539860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800539875, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800543905, "dur":65328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800609241, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800609256, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800613129, "dur":26044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800639184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800639199, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800642385, "dur":24575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800666968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800666983, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800671197, "dur":71092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800742297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800742368, "dur":6408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800748870, "dur":89847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800838723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561800838793, "dur":16403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561800855270, "dur":199376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801054651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561801054662, "dur":21166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801075898, "dur":37009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801112915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561801112929, "dur":5168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801118804, "dur":286512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801405324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561801405340, "dur":4398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801409816, "dur":231187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801641011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561801641025, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561801644694, "dur":555281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561802199984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669561802200000, "dur":9420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kayla/Desktop/Space Kitter/Builds/SpaceKitter_Build_2/Space Kitter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669561802209517, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1669561802209522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669561802221197, "dur":3772, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669561802256191, "dur": 1272, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669561802255035, "dur": 2499, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyType
+{
+    Chasers, Shooters, 
+}
+
 public class EnemyManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -10,9 +15,14 @@ public class EnemyManager : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
+    }
+
+    void KillEnemy()
+    {
+
     }
 }
