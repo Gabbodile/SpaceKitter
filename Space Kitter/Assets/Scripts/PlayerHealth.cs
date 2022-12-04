@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject player;
+
     public int health = 5;
     public int maxHealth = 5;
  
@@ -17,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damageMultiplier;
         if (health <= 0)
         {
-            Destroy(this);
+            Destroy(player);
         }
     }
 }

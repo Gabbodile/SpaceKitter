@@ -3,120 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public enum PatrolType
+{
+    Roaming, Detect, Chase
+}
+
 public class Enemy : MonoBehaviour
 {
-
-    /*public EnemyType MyType;
-    public float mySpeed = 2f;
-    public int myHealth = 100;
-    Transform moveToPos;
-
-    [Header("AI")]
-    public PatrolType myPatrol;
-    int patrolPoint = 0;
-    bool reverse = false;
-    Transform startPos;
-    Transform endPos;
-
-
-    void Start()
-    {
-        SetUp();
-        StartCoroutine(move());
-        SetupAI();
-    }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            Hit(10);
-        }
-    }
-    void SetUp()
-    {
-        switch (MyType)
-        {
-            case EnemyType.OneHand:
-                myHealth = 100;
-                mySpeed = 2f;
-                myPatrol = PatrolType.Linear;
-                break;
-
-            case EnemyType.TwoHand:
-                myHealth = 200;
-                mySpeed = 1f;
-                myPatrol = PatrolType.Loop;
-                break;
-
-            case EnemyType.Archer:
-                myHealth = 50;
-                mySpeed = 5f;
-                myPatrol = PatrolType.Random;
-                break;
-        }
-    }
-
-    void Hit(int _damage)
-    {
-        myHealth -= _damage;
-        if (myHealth <= 0)
-            Die();
-        else
-            _GM.AddScore(10);
-    }
-
-    void SetupAI()
-    {
-        startPos = transform;
-        endPos = _EM.GetRandomSpawnPoint();
-        moveToPos = endPos;
-    }
-
-    IEnumerator move()
-    {
-        switch (myPatrol)
-        {
-            case PatrolType.Linear:
-                moveToPos = _EM.spawnPoints[patrolPoint];
-                patrolPoint = patrolPoint != _EM.spawnPoints.Length ? patrolPoint + 1 : 0;
-                break;
-
-            case PatrolType.Random:
-                moveToPos = _EM.GetRandomSpawnPoint();
-                break;
-
-            case PatrolType.Loop:
-                moveToPos = reverse ? startPos : endPos;
-                reverse = !reverse;     //reverse a bool
-                break;
-        }
-
-        transform.LookAt(moveToPos);
-        while (Vector3.Distance(transform.position, moveToPos.position) > 0.3f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, moveToPos.position, Time.deltaTime * mySpeed);
-            yield return null;
-        }
-    }
-    public void Die()
-    {
-        StopAllCoroutines();
-        _GM.AddScore(100);
-        _EM.KillEnemy(this.gameObject);
-    }*/
-
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
 
-    //Patroling
+    //Roaming 
     public Vector3 walkPoint;
     bool walkPointSet;
     public float walkPointRange;
 
     //Attack
     public float timeBetweenAttacks;
-    bool alreadyAttacked;
 
     //State
     public float sightRange, attackRange;
@@ -134,6 +38,9 @@ public class Enemy : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
+        //Change to switch? Casewhere
+
+        
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInAttackRange && playerInSightRange) AttackPlayer();
@@ -157,7 +64,7 @@ public class Enemy : MonoBehaviour
     
     void SearchWalkPoint()
     {
-        //Calculates a random Point in Range
+        //Calculates a random Point in Range to walk to
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
@@ -168,6 +75,7 @@ public class Enemy : MonoBehaviour
     }
     private void ChasePlayer()
     {
+        //Chasing after a player
         agent.SetDestination(player.position);
     }
     
@@ -176,6 +84,7 @@ public class Enemy : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
+        //Looks at player
         transform.LookAt(player);
 
     }
