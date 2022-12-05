@@ -10,6 +10,7 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
+        _playerHealth = GameObject.Find("Player").GetComponent<PlayerHealth>();
         Destroy(this.gameObject, 3);
     }
 

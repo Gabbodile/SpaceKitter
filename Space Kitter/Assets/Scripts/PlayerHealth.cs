@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damageMultiplier;
         if (health <= 0)
         {
+            //when player dies, also put up the GameOver UI
             Destroy(player);
         }
     }
