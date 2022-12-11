@@ -309,6 +309,8 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/ExtraPackages/SpaceSkies Free/Demo/Scripts/LookCamera.cs"
+"Assets/ExtraPackages/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/FiringPoint.cs"
 "Assets/Scripts/MouseLook.cs"
@@ -317,6 +319,7 @@
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Projectile.cs"
+"Assets/Scripts/TitleScreen.cs"
 "Assets/Scripts/UI.cs"
 -langversion:9.0
 

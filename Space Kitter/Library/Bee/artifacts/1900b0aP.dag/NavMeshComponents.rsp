@@ -300,10 +300,10 @@
 -r:"C:/Users/kayla/Desktop/Space Kitter/Space Kitter/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"C:/Users/kayla/Desktop/Space Kitter/Space Kitter/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/NavMeshComponents/Scripts/NavMeshLink.cs"
-"Assets/NavMeshComponents/Scripts/NavMeshModifier.cs"
-"Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs"
-"Assets/NavMeshComponents/Scripts/NavMeshSurface.cs"
+"Assets/ExtraPackages/NavMeshComponents/Scripts/NavMeshLink.cs"
+"Assets/ExtraPackages/NavMeshComponents/Scripts/NavMeshModifier.cs"
+"Assets/ExtraPackages/NavMeshComponents/Scripts/NavMeshModifierVolume.cs"
+"Assets/ExtraPackages/NavMeshComponents/Scripts/NavMeshSurface.cs"
 -langversion:9.0
 
 /deterministic
