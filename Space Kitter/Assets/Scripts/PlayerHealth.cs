@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public GameObject player;
+    public GameObject gameOverScreen;
 
     public int health = 5;
     public int maxHealth = 5;
@@ -12,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         health = maxHealth;
+        gameOverScreen.SetActive(false);
     }
 
     public void Damage(int damageMultiplier)
@@ -19,8 +21,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damageMultiplier;
         if (health <= 0)
         {
-            //when player dies, also put up the GameOver UI
-            Destroy(player);
+            gameOverScreen.SetActive(true);
         }
     }
 }

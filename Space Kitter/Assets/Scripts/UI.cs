@@ -1,21 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
-    public bool endScreen;
+    public GameObject endScreen;
 
-    //End Level
+    private void Start()
+    {
+        endScreen.SetActive(false);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            endScreen = enabled;
             Debug.Log("You have ended level");
-
-            //show endscreen
-            
+            Time.timeScale = 0;
+            endScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
+    
 }
