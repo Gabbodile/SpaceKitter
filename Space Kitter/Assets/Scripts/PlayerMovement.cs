@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    public int keys = 0;
+
     void Update()
     {
 
@@ -43,5 +45,10 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    public void Collect()
+    {
+
     }
 }
