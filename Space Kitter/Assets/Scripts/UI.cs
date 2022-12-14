@@ -2,25 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UI : MonoBehaviour
 {
-    public GameObject endScreen;
+    
+    public PlayerMovement _score;
+    public GameObject endTrigger;
+
+    public TMP_Text scoreText;
+    public TMP_Text timer;
 
     private void Start()
     {
-        endScreen.SetActive(false);
+        _score = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void ScoreText(int _score)
     {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("You have ended level");
-            Time.timeScale = 0;
-            endScreen.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-        }
+        scoreText.text = "Score: " + _score;
     }
     
 }

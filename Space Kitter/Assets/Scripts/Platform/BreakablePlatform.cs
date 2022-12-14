@@ -13,6 +13,14 @@ public class BreakablePlatform : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(platform, 1);
+            StartCoroutine(Spawn());
         }
+    }
+
+    IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(3);
+        GameObject spawnBreakable;
+        spawnBreakable = Instantiate(platform);
     }
 }
