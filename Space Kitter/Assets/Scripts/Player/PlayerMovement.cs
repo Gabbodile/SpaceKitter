@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -21,6 +22,20 @@ public class PlayerMovement : MonoBehaviour
     
     //Score
     public int score = 0;
+    public TMP_Text scoreText;
+
+    //Health
+    public GameObject player;
+    public GameObject gameOverScreen;
+
+    public int health = 10;
+    public int maxHealth = 10;
+
+    void Start()
+    {
+        health = maxHealth;
+        gameOverScreen.SetActive(false);
+    }
 
     void Update()
     {
@@ -47,15 +62,42 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        UpdateScore();
     }
 
-    //Collectables
-    void OnTriggerEnter(Collider other)
+    //Tag
+    public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Collectable")
         {
-            score += 10;
             Destroy(other.gameObject);
+            score += 10;
+        }
+
+        //Player die
+        if (other.tag == "OutBounds")
+        {
+            Debug.Log("We're Out Of Bounds");
+            gameOverScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    //UI
+    public void UpdateScore()
+    {
+        scoreText.text = "Score: " + score;
+    }
+
+    //Hit
+    public void Damage(int damageMultiplier)
+    {
+        health -= damageMultiplier;
+        if (health <= 0)
+        {
+            gameOverScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }

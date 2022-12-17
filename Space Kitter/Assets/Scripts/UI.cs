@@ -6,21 +6,21 @@ using TMPro;
 
 public class UI : MonoBehaviour
 {
-    
-    public PlayerMovement _score;
+    //Trying to get the score from the player movement
+    public PlayerMovement _PM;
+    public int highScore = 0;
+
     public GameObject endTrigger;
 
     public TMP_Text scoreText;
+    public TMP_Text highestScore;
     public TMP_Text timer;
 
     private void Start()
     {
-        _score = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
 
-    public void ScoreText(int _score)
-    {
-        scoreText.text = "Score: " + _score;
-    }
+    
     
 }

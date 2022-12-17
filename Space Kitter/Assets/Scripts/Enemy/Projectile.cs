@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public PlayerHealth _playerHealth;
+    public PlayerMovement _PM;
+
     public int damageMultiplier = 2;
 
     void Start()
     {
-        _playerHealth = GameObject.Find("Player").GetComponent<PlayerHealth>();
+        _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
+
         Destroy(this.gameObject, 3);
     }
 
@@ -18,7 +20,7 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Hit Player");
-            _playerHealth.Damage(damageMultiplier);
+            _PM.Damage(damageMultiplier);
         }
     }
 }

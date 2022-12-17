@@ -365,7 +365,6 @@
 "Assets/Scripts/Platform/PlatformMove.cs"
 "Assets/Scripts/Player/MouseLook.cs"
 "Assets/Scripts/Player/PlayerHand.cs"
-"Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/UI.cs"
