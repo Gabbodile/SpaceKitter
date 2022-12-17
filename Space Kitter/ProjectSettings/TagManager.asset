@@ -8,6 +8,7 @@ TagManager:
   - Key
   - Collectable
   - OutBounds
+  - Object
   layers:
   - Default
   - TransparentFX

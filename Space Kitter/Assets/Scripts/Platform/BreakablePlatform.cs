@@ -19,7 +19,7 @@ public class BreakablePlatform : MonoBehaviour
 
     IEnumerator Spawn()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         GameObject spawnBreakable;
         spawnBreakable = Instantiate(platform);
     }

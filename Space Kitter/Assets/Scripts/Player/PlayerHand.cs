@@ -5,12 +5,11 @@ using UnityEngine;
 public class PlayerHand : MonoBehaviour
 {
     public GameObject collectKey;
-    public float projectileSpeed = 1000;
+    public float projectileSpeed = 100;
     public Transform playerHand;
 
     public float pickupDistance = 3;
     public bool hasKey;
-    public bool hasAmmo;
 
     public List<Transform> key;
 
