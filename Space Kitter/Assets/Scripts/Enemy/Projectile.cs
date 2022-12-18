@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    //Calls in the player movement script
+    //Calls in scripts
     public PlayerMovement _PM;
+    public DifficultyChanger _difficulty;
 
     //Difficulty change = more damage to the multiplier. 
-    public int damageMultiplier = 2;
+    public int damageMultiplier;
 
     void Start()
     {
         _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        _difficulty = GetComponent<DifficultyChanger>();
 
         Destroy(this.gameObject, 3);
     }
@@ -23,6 +25,7 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Hit Player");
+            Destroy(this.gameObject);
             _PM.Damage(damageMultiplier);
         }
     }

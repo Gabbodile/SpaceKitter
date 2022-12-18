@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     public int health = 10;
     public int maxHealth = 10;
 
+    private int damage = 1;
+
     void Start()
     {
         health = maxHealth;
@@ -93,10 +95,11 @@ public class PlayerMovement : MonoBehaviour
     //Hit
     public void Damage(int damageMultiplier)
     {
-        health -= damageMultiplier;
+        health -= damage * damageMultiplier;
         if (health <= 0)
         {
             gameOverScreen.SetActive(true);
+            Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
         }
     }
