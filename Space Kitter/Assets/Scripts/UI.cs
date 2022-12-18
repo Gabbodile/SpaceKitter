@@ -20,7 +20,4 @@ public class UI : MonoBehaviour
     {
         _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
     }
-
-    
-    
 }

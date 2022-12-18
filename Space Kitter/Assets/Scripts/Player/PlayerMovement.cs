@@ -5,7 +5,7 @@ using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Movement
+    [Header("Movement")]
     public CharacterController controller;
 
     public float speed = 12f;
@@ -20,14 +20,14 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
     
-    //Score
+    [Header("Score")]
     public int score = 0;
     public TMP_Text scoreText;
 
-    //Health
-    public GameObject player;
+    [Header("UI")]
     public GameObject gameOverScreen;
 
+    [Header("Health")]
     public int health = 10;
     public int maxHealth = 10;
 

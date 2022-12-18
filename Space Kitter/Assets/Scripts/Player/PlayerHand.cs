@@ -49,6 +49,7 @@ public class PlayerHand : MonoBehaviour
         }
     }
 
+    //Put the closest key on the player's "hand"
     Transform GetClosestKey(List<Transform> _key)
     {
         Transform bestTarget = null;

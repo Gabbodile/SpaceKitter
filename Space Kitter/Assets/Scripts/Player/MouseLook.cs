@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    // This Script controls the mouse and where the player is looking
+    // This Script controls the mouse and where the player is looking. Trying to get it for the Player Hand
+
     public float mouseSensitivity = 100f;
     public Transform playerBody;
     float xRotation = 0f;
