@@ -13,7 +13,7 @@ public class PlayerHand : MonoBehaviour
 
     public List<Transform> key;
 
-    // Start is called before the first frame update
+    // Find any object with the "key" tag
     void Start()
     {
         GameObject[] temp = GameObject.FindGameObjectsWithTag("Key");
@@ -23,7 +23,7 @@ public class PlayerHand : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    // pick up the object
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
