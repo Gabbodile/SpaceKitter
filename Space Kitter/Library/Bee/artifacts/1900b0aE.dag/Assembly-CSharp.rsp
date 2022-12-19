@@ -372,6 +372,7 @@
 "Assets/Scripts/Player/PlayerHand.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/SceneChanger.cs"
+"Assets/Scripts/Singleton.cs"
 "Assets/Scripts/UI.cs"
 -langversion:9.0
 

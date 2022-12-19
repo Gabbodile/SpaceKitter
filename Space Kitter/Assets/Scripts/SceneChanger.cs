@@ -36,7 +36,7 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 
-    //in game stuff
+    //in game buttons
     public void QuitGame()
     {
         Debug.Log("We have Quit the Game");

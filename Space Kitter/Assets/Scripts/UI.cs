@@ -13,11 +13,10 @@ public class UI : MonoBehaviour
     public GameObject endTrigger;
 
     public TMP_Text scoreText;
-    public TMP_Text highestScore;
-    public TMP_Text timer;
 
     private void Start()
     {
         _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
+
     }
 }

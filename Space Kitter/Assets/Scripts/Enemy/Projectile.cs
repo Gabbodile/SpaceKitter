@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
     public DifficultyChanger _difficulty;
 
     //Difficulty change = more damage to the multiplier. 
-    public int damageMultiplier;
+    public int damageMultiplier = 1;
 
     void Start()
     {
