@@ -8,14 +8,12 @@ public enum Difficulty
 }
 public class DifficultyChanger : Singleton<DifficultyChanger>
 {
-    //public Projectile _projectile;
     public PlayerMovement _PM;
 
     public Difficulty difficulty;
 
     private void Start()
     {
-        //_projectile = GetComponent<Projectile>();
         //_PM = GetComponent<PlayerMovement>();
 
         _PM = GameObject.Find("Player").GetComponent<PlayerMovement>();
@@ -28,16 +26,13 @@ public class DifficultyChanger : Singleton<DifficultyChanger>
         switch (difficulty)
         {
             case Difficulty.Easy:
-                //_projectile.damageMultiplier = 1;
-                _PM.health = 9;
+                _PM.healthMultipier = 9;
                 break;
             case Difficulty.Medium:
-                //_projectile.damageMultiplier = 3;
-                _PM.health = 3;
+                _PM.healthMultipier = 3;
                 break;
             case Difficulty.Hard:
-                //_projectile.damageMultiplier = 9;
-                _PM.health = 1;
+                _PM.healthMultipier = 1;
                 break;
         }
     }

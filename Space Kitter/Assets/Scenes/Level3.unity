@@ -1111,11 +1111,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51361499514126534, guid: 3baf10130be3fee42a79360e2dd5c7fe, type: 3}
       propertyPath: health
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51361499514126534, guid: 3baf10130be3fee42a79360e2dd5c7fe, type: 3}
       propertyPath: maxHealth
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51361499514126534, guid: 3baf10130be3fee42a79360e2dd5c7fe, type: 3}
       propertyPath: scoreText
@@ -5588,8 +5588,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c03a9b3acfea4d14790ed87928696fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dontDestroy: 0
   _PM: {fileID: 1551167494}
-  difficulty: 1
+  difficulty: 0
 --- !u!4 &1443884841
 Transform:
   m_ObjectHideFlags: 0
@@ -8941,6 +8942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7270a56380927f4f9528fd32315b2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dontDestroy: 0
   pauseMenu: {fileID: 891779480}
 --- !u!4 &1988395672
 Transform:
@@ -8973,8 +8975,6 @@ MonoBehaviour:
   highScore: 0
   endTrigger: {fileID: 0}
   scoreText: {fileID: 505955898}
-  highestScore: {fileID: 0}
-  timer: {fileID: 1987202927}
 --- !u!1 &2023129581
 GameObject:
   m_ObjectHideFlags: 0

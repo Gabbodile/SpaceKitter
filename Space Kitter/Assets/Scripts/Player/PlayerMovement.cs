@@ -5,6 +5,7 @@ using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     [Header("Movement")]
     public CharacterController controller;
 
@@ -28,14 +29,15 @@ public class PlayerMovement : MonoBehaviour
     public GameObject gameOverScreen;
 
     [Header("Health")]
-    public int health = 10;
-    public int maxHealth = 10;
+    public int health;
+    public int maxHealth = 1;
+    public int healthMultipier = 1;
 
     private int damage = 1;
 
     void Start()
     {
-        health = maxHealth;
+        health = maxHealth * healthMultipier;
         gameOverScreen.SetActive(false);
     }
 
