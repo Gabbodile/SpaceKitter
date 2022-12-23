@@ -338,10 +338,14 @@ MonoBehaviour:
     m_Bits: 8
   score: 0
   scoreText: {fileID: 0}
-  player: {fileID: 51361499514126531}
   gameOverScreen: {fileID: 0}
   health: 10
   maxHealth: 10
+  healthMultipier: 1
+  hurtNoise:
+  - {fileID: 8300000, guid: d9c2bbf843550ae49a21034b4b32e4d7, type: 3}
+  - {fileID: 8300000, guid: cfa134b106f648d439a3a156c0ad49b3, type: 3}
+  - {fileID: 8300000, guid: 7abc1f42265f1a8409e287783eeade00, type: 3}
 --- !u!143 &51361499514126533
 CharacterController:
   m_ObjectHideFlags: 0

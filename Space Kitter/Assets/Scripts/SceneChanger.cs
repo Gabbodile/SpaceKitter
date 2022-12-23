@@ -8,6 +8,8 @@ public class SceneChanger : Singleton<SceneChanger>
     public GameObject pauseMenu;
     bool isPaused = false;
 
+    public AudioSource backgroundMusic;
+
     private void Start()
     {
         pauseMenu.SetActive(false);
@@ -50,6 +52,11 @@ public class SceneChanger : Singleton<SceneChanger>
     public void MainMenu()
     {
         SceneManager.LoadScene("Title");
+    }
+
+    public void ChangeVolume()
+    {
+        backgroundMusic.volume = 0.5f;
     }
 
     public void Pause()

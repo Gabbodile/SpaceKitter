@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
-    
+
     [Header("Score")]
     public int score = 0;
     public TMP_Text scoreText;
@@ -35,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
 
     private int damage = 1;
 
+    [Header("Audio")]
+    public AudioClip[] hurtNoise;
+
     void Start()
     {
         health = maxHealth * healthMultipier;
@@ -45,12 +48,12 @@ public class PlayerMovement : MonoBehaviour
     {
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        
-        if(isGrounded && velocity.y < 0)
+
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -0.2f;
         }
-        
+
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
@@ -58,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
@@ -98,6 +101,10 @@ public class PlayerMovement : MonoBehaviour
     public void Damage(int damageMultiplier)
     {
         health -= damage * damageMultiplier;
+
+        //Wont play??
+        //hurtNoise.Play();
+
         if (health <= 0)
         {
             gameOverScreen.SetActive(true);

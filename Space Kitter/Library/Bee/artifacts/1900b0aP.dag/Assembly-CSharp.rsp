@@ -312,6 +312,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/ExtraPackages/SpaceSkies Free/Demo/Scripts/LookCamera.cs"
 "Assets/ExtraPackages/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs"
+"Assets/Scripts/DifficultyChanger.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/EndTrigger.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
@@ -323,6 +324,7 @@
 "Assets/Scripts/Player/PlayerHand.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/SceneChanger.cs"
+"Assets/Scripts/Singleton.cs"
 "Assets/Scripts/UI.cs"
 -langversion:9.0
 
